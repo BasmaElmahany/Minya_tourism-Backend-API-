@@ -1,0 +1,6 @@
+@Tourism_minya_HostAddress = http://localhost:5276
+
+GET {{Tourism_minya_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

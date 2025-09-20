@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tourism_minya</name>
+    </assembly>
+    <members>
+        <member name="M:Tourism_minya.Controllers.AuthController.Register(Tourism_minya.Application.DTOs.RegisterUserDto)">
+            <summary>
+            Registers a new user with the system.
+            </summary>
+            <param name="dto">The user registration data.</param>
+            <returns>A success message if registration is successful; otherwise, a bad request with an error message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.AuthController.Login(Tourism_minya.Application.DTOs.LoginDto)">
+            <summary>
+            Authenticates a user and returns a JWT token on successful login.
+            </summary>
+            <param name="dto">The login credentials.</param>
+            <returns>A JWT token if login is successful; otherwise, an unauthorized response with an error message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.CenterController.GetAll">
+            <summary>
+            Retrieves a list of all Centers.
+            </summary>
+            <returns>A list of Center records.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.CenterController.GetById(System.Guid)">
+            <summary>
+            Retrieves a specific Center by its ID.
+            </summary>
+            <param name="id">The Center ID.</param>
+            <returns>The Center details.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.CenterController.Create(Tourism_minya.Application.DTOs.CenterDto)">
+            <summary>
+            Creates a new Center.
+            Uses AutoMapper to map the DTO to the domain entity.
+            </summary>
+            <param name="dto">The Center data transfer object.</param>
+            <returns>The created Center and a success message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.CenterController.Update(System.Guid,Tourism_minya.Application.DTOs.CenterDto)">
+            <summary>
+            Updates an existing Center by ID.
+            Uses AutoMapper to map the DTO to the domain entity.
+            </summary>
+            <param name="id">The ID of the Center to update.</param>
+            <param name="DTo">The updated Center DTO.</param>
+            <returns>The updated Center and a success message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.CenterController.Delete(System.Guid)">
+            <summary>
+            Deletes a Center by its ID.
+            </summary>
+            <param name="id">The Center ID.</param>
+            <returns>A success message after deletion, or an error if not found.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.TourismTypeController.GetAll">
+            <summary>
+            Retrieves a list of all Tourism Types.
+            </summary>
+            <returns>A list of TourismType records.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.TourismTypeController.GetById(System.Guid)">
+            <summary>
+            Retrieves a specific Tourism Type by its ID.
+            </summary>
+            <param name="id">The Tourism Type ID.</param>
+            <returns>The Tourism Type details.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.TourismTypeController.Create(Tourism_minya.Application.DTOs.TourismTypeDTO)">
+            <summary>
+            Creates a new Tourism Type.
+            Uses AutoMapper to map the DTO to the domain entity.
+            </summary>
+            <param name="dto">The TourismType data transfer object.</param>
+            <returns>The created Tourism Type and a success message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.TourismTypeController.Update(System.Guid,Tourism_minya.Application.DTOs.TourismTypeDTO)">
+            <summary>
+            Updates an existing Tourism Type by ID.
+            Uses AutoMapper to map the DTO to the domain entity.
+            </summary>
+            <param name="id">The ID of the Tourism Type to update.</param>
+            <param name="typeDTo">The updated TourismType DTO.</param>
+            <returns>The updated Tourism Type and a success message.</returns>
+        </member>
+        <member name="M:Tourism_minya.Controllers.TourismTypeController.Delete(System.Guid)">
+            <summary>
+            Deletes a Tourism Type by its ID.
+            </summary>
+            <param name="id">The Tourism Type ID.</param>
+            <returns>A success message after deletion, or an error if not found.</returns>
+        </member>
+    </members>
+</doc>

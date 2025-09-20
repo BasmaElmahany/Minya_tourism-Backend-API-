@@ -1,0 +1,15 @@
+D:\esnrm\backend\Tourism_minya.Application\bin\Debug\net8.0\Tourism_minya.Application.deps.json
+D:\esnrm\backend\Tourism_minya.Application\bin\Debug\net8.0\Tourism_minya.Application.dll
+D:\esnrm\backend\Tourism_minya.Application\bin\Debug\net8.0\Tourism_minya.Application.pdb
+D:\esnrm\backend\Tourism_minya.Application\bin\Debug\net8.0\Tourism_minya.Domain.dll
+D:\esnrm\backend\Tourism_minya.Application\bin\Debug\net8.0\Tourism_minya.Domain.pdb
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.csproj.AssemblyReference.cache
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.AssemblyInfoInputs.cache
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.AssemblyInfo.cs
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.csproj.CoreCompileInputs.cache
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_.4AA2F9B0.Up2Date
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.dll
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\refint\Tourism_minya.Application.dll
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\Tourism_minya.Application.pdb
+D:\esnrm\backend\Tourism_minya.Application\obj\Debug\net8.0\ref\Tourism_minya.Application.dll
