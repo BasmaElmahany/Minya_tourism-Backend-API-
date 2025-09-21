@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tourism_minya.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+358100ef933d1a4ddfeafdbaf3edefbb5be1ceb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tourism_minya.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tourism_minya.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

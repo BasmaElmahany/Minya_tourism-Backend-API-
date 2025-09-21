@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\esnrm\\backend\\Tourism_minya\\Tourism_minya.csproj": {}
+    "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya\\Tourism_minya.csproj": {}
   },
   "projects": {
-    "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
+    "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj",
+        "projectUniqueName": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj",
         "projectName": "Tourism_minya.Application",
-        "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
-        "outputPath": "D:\\esnrm\\backend\\Tourism_minya.Application\\obj\\",
+        "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
+        "outputPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
-                "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj"
+              "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
+                "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -80,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
+    "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj",
+        "projectUniqueName": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj",
         "projectName": "Tourism_minya.Domain",
-        "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
-        "outputPath": "D:\\esnrm\\backend\\Tourism_minya.Domain\\obj\\",
+        "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
+        "outputPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -125,7 +125,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -146,24 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj": {
+    "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj",
         "projectName": "tourism_minya.Infrastructure",
-        "projectPath": "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
-        "outputPath": "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\obj\\",
+        "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
+        "outputPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -179,11 +179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
-                "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj"
+              "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
+                "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj"
               },
-              "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
-                "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj"
+              "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj": {
+                "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Domain\\Tourism_minya.Domain.csproj"
               }
             }
           }
@@ -198,7 +198,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -261,24 +261,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\esnrm\\backend\\Tourism_minya\\Tourism_minya.csproj": {
+    "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya\\Tourism_minya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\esnrm\\backend\\Tourism_minya\\Tourism_minya.csproj",
+        "projectUniqueName": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya\\Tourism_minya.csproj",
         "projectName": "Tourism_minya",
-        "projectPath": "D:\\esnrm\\backend\\Tourism_minya\\Tourism_minya.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
-        "outputPath": "D:\\esnrm\\backend\\Tourism_minya\\obj\\",
+        "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya\\Tourism_minya.csproj",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
+        "outputPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -294,11 +294,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
-                "projectPath": "D:\\esnrm\\backend\\Tourism_minya.Application\\Tourism_minya.Application.csproj"
+              "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj": {
+                "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\Tourism_minya.Application\\Tourism_minya.Application.csproj"
               },
-              "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj": {
-                "projectPath": "D:\\esnrm\\backend\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj"
+              "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj": {
+                "projectPath": "D:\\Tourism\\backend\\Minya_tourism-Backend-API-\\tourism_minya.Infrastructure\\tourism_minya.Infrastructure.csproj"
               }
             }
           }
@@ -313,7 +313,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -353,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

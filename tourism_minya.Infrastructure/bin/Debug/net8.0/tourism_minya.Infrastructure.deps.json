@@ -1347,7 +1347,7 @@
         },
         "runtime": {
           "Tourism_minya.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1355,7 +1355,7 @@
       "Tourism_minya.Domain/1.0.0": {
         "runtime": {
           "Tourism_minya.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

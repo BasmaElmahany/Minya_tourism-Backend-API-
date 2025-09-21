@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using System.Security.Claims;
 using tourism_minya.Infrastructure.Entities;
 using tourism_minya.Infrastructure.Interfaces;
 using Tourism_minya.Application.DTOs;
@@ -99,6 +101,54 @@ namespace Tourism_minya.Controllers
                 return Unauthorized(new { message = "Invalid Email or password " + "Or you don't have email Register first" });
             }
         }
+
+        [HttpPost("AssignRole")]
+        public async Task<IActionResult> AssignRole(string userId, string roleName)
+        {
+            var result = await _userService.AssignRoleAsync(userId, roleName);
+            return Ok(result);
+        }
+
+
+
+
+        [Authorize]
+        [HttpGet("me")]
+        public async Task<IActionResult> GetCurrentUser()
+        {
+            var user = await _userService.GetCurrentUserAsync(User);
+            return Ok(user);
+        }
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("AllUsers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _userService.GetAllUsersAsync();
+            return Ok(users);
+        }
+
+
+        [HttpPost("change-password")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto dto)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            return Ok(await _userService.ChangePasswordAsync(userId, dto));
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ResetPasswordRequestDto dto)
+        {
+            return Ok(await _userService.GenerateResetPasswordTokenAsync(dto.Email));
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDto dto)
+        {
+            return Ok(await _userService.ResetPasswordAsync(dto));
+        }
+
 
     }
 }

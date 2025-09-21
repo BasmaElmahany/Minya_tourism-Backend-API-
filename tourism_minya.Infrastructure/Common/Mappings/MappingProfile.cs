@@ -22,6 +22,7 @@ namespace tourism_minya.Infrastructure.Common.Mappings
             CreateMap<TourismTypeDTO, TourismType>();
 
             CreateMap<Center, CenterDto>().ReverseMap();
+            CreateMap<ApplicationUser, CurrentUserDto>();
         }
     }
 }

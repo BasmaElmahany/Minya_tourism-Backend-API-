@@ -9,3 +9,15 @@ D:\esnrm\backend\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.dll
 D:\esnrm\backend\Tourism_minya.Domain\obj\Debug\net8.0\refint\Tourism_minya.Domain.dll
 D:\esnrm\backend\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.pdb
 D:\esnrm\backend\Tourism_minya.Domain\obj\Debug\net8.0\ref\Tourism_minya.Domain.dll
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\bin\Debug\net8.0\Tourism_minya.Domain.deps.json
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\bin\Debug\net8.0\Tourism_minya.Domain.dll
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\bin\Debug\net8.0\Tourism_minya.Domain.pdb
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.AssemblyInfoInputs.cache
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.AssemblyInfo.cs
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.csproj.CoreCompileInputs.cache
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.sourcelink.json
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.dll
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\refint\Tourism_minya.Domain.dll
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\Tourism_minya.Domain.pdb
+D:\Tourism\backend\Minya_tourism-Backend-API-\Tourism_minya.Domain\obj\Debug\net8.0\ref\Tourism_minya.Domain.dll

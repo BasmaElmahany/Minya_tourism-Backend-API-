@@ -93,6 +93,7 @@ public class Program
     builder.Services.AddScoped<IUserService, UserService>();
     builder.Services.AddScoped<ITourismType, TourismTypeService>();
     builder.Services.AddScoped<ICenter, CenterService>();
+    builder.Services.AddScoped<IRoleService, RoleService>();
 
 
             builder.Services.AddControllers();
