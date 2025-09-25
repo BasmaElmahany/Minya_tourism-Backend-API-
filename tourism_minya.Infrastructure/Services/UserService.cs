@@ -34,20 +34,21 @@ namespace tourism_minya.Infrastructure.Services
         {
             var user = _mapper.Map<ApplicationUser>(dto);
             user.UserName = dto.Email;
-          
 
             var result = await _userManager.CreateAsync(user, dto.Password);
             if (!result.Succeeded)
                 throw new Exception(string.Join(", ", result.Errors.Select(e => e.Description)));
 
+            // Auto-confirm
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            var encodedToken = WebUtility.UrlEncode(token);
-            var confirmationLink = $"http://localhost:12957/api/Auth/confirmemail?userId={user.Id}&token={encodedToken}";
+            var confirmResult = await _userManager.ConfirmEmailAsync(user, token);
+            if (!confirmResult.Succeeded)
+                throw new Exception(string.Join(", ", confirmResult.Errors.Select(e => e.Description)));
 
-       
-
-            return "User registered successfully. Please check your email to confirm.";
+            // You can still return a success message or directly issue a JWT
+            return "User registered successfully.";
         }
+
 
         /*
                 public async Task<string> ConfirmEmailAsync(string userId, string token)
